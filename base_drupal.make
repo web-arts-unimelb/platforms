@@ -5,7 +5,7 @@ core = 7.x
 ;
 ; Drupal core version.
 ;
-projects[drupal][version] = 7.20
+projects[drupal][version] = 7.21
 
 ;
 ; Modules to go into sites/all
