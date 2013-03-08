@@ -16,7 +16,7 @@ projects[acl][subdir] = contrib
 projects[addressfield][version] = "7.x-1.0-beta3"
 projects[addressfield][subdir] = contrib
 
-projects[admin_menu][version] = "7.x-3.0-rc3"
+projects[admin_menu][version] = "7.x-3.0-rc4"
 projects[admin_menu][subdir] = contrib
 
 projects[advanced_help][version] = "7.x-1.0"
@@ -157,7 +157,7 @@ projects[imce_mkdir][subdir] = contrib
 projects[imce_wysiwyg][version] = "7.x-1.x-dev"
 projects[imce_wysiwyg][subdir] = contrib
 
-projects[insert][version] = "7.x-1.2"
+projects[insert][version] = "7.x-1.3"
 projects[insert][subdir] = contrib
 
 projects[job_scheduler][version] = "7.x-2.0-alpha3"
@@ -289,7 +289,7 @@ projects[themekey][subdir] = contrib
 projects[title][version] = "7.x-1.0-alpha4"
 projects[title][subdir] = contrib
 
-projects[token][version] = "7.x-1.4"
+projects[token][version] = "7.x-1.5"
 projects[token][subdir] = contrib
 
 projects[transliteration][version] = "7.x-3.1"
@@ -307,8 +307,9 @@ projects[uuid][subdir] = contrib
 projects[variable][version] = "7.x-2.1"
 projects[variable][subdir] = contrib
 
-projects[views][version] = "7.x-3.5+38-dev"
+projects[views][version] = "7.x-3.5-dev"
 projects[views][subdir] = contrib
+projects[views][patch][] = http://drupal.org/files/issues/1191928-views-form-override-url_0.patch
 
 projects[views_bulk_operations][version] = "7.x-3.1"
 projects[views_bulk_operations][subdir] = contrib
@@ -349,10 +350,6 @@ projects[wysiwyg_spellcheck][subdir] = contrib
 projects[rubik][type] = "theme"
 projects[rubik][version] = "7.x-4.0-beta8"
 projects[rubik][subdir] = contrib
-
-projects[seven_subtheme][type] = "theme"
-projects[seven_subtheme][version] = "7.12"
-projects[seven_subtheme][subdir] = contrib
 
 projects[tao][type] = "theme"
 projects[tao][version] = "7.x-3.0-beta4"
