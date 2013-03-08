@@ -49,7 +49,7 @@ projects[conditional_fields][subdir] = contrib
 projects[content_access][version] = "1.2-beta1"
 projects[content_access][subdir] = contrib
 
-projects[content_access_admin][version] = 
+projects[content_access_admin][version] = "1.x-dev"
 projects[content_access_admin][subdir] = contrib
 
 projects[css_splitter][version] = "1.x-dev"
@@ -295,9 +295,6 @@ projects[token][subdir] = contrib
 projects[transliteration][version] = "3.1"
 projects[transliteration][subdir] = contrib
 
-projects[unimelb_settings][version] = "1.0-beta1"
-projects[unimelb_settings][subdir] = contrib
-
 projects[userprotect][version] = "1.0"
 projects[userprotect][subdir] = contrib
 
@@ -307,7 +304,7 @@ projects[uuid][subdir] = contrib
 projects[variable][version] = "2.1"
 projects[variable][subdir] = contrib
 
-projects[views][version] = "3.5-dev"
+projects[views][version] = "3.5"
 projects[views][subdir] = contrib
 
 projects[views_bulk_operations][version] = "3.1"
@@ -319,7 +316,7 @@ projects[views_slideshow][subdir] = contrib
 projects[webform][version] = "4.0-alpha6"
 projects[webform][subdir] = contrib
 
-projects[webform2pdf][version] = "3.0+3-dev"
+projects[webform2pdf][version] = "3.x-dev"
 projects[webform2pdf][subdir] = contrib
 
 projects[webform_autocomplete][version] = "1.1"
@@ -346,10 +343,29 @@ projects[wysiwyg_spellcheck][subdir] = contrib
 ;
 ; Themes to go into sites/all
 ;
-projects[rubik][type] = "theme"
 projects[rubik][version] = "4.0-beta8"
 projects[rubik][subdir] = contrib
 
-projects[tao][type] = "theme"
 projects[tao][version] = "3.0-beta4"
 projects[tao][subdir] = contrib
+
+;
+; Libraries to go into sites/all
+;
+libraries[jquery.cycle]
+
+libraries[json2]
+
+libraries[phpsass][download][type] = "git"
+libraries[phpsass][download][url] = "https://github.com/richthegeek/phpsass.git"
+libraries[phpsass][download][branch] = "master"
+libraries[phpsass][directory_name] = "phpsass"
+libraries[phpsass][destination] = "libraries"
+
+libraries[tcpdf]
+
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.5.8.zip"
+libraries[tinymce][directory_name] = "tinymce"
+libraries[tinymce][destination] = "libraries"
+
