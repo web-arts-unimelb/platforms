@@ -3,11 +3,6 @@ api = 2
 core = 7.x
 
 ;
-; Drupal core version.
-;
-projects[drupal][version] = 7.21
-
-;
 ; Modules to go into sites/all
 ;
 projects[acl][version] = "1.0"
@@ -171,6 +166,8 @@ projects[jquery_update][subdir] = contrib
 
 projects[ldap][version] = "1.0-beta12"
 projects[ldap][subdir] = contrib
+; @see http://drupal.org/node/1775658
+projects[ldap][patch][] = http://drupal.org/files/ldap_server_init-1775658-1.patch
 
 projects[libraries][version] = "2.0"
 projects[libraries][subdir] = contrib
@@ -249,6 +246,8 @@ projects[realname][subdir] = contrib
 
 projects[redirect][version] = "1.0-rc1"
 projects[redirect][subdir] = contrib
+; @see http://drupal.org/node/1796596
+projects[redirect][patch][] = http://drupal.org/files/redirect-detect_prevent_circular_redirects_patch_and_test-1796596-48.patch
 
 projects[revisioning][version] = "1.4"
 projects[revisioning][subdir] = contrib
@@ -352,9 +351,17 @@ projects[tao][subdir] = contrib
 ;
 ; Libraries to go into sites/all
 ;
-libraries[jquery.cycle]
+libraries[jquery.cycle][download][type] = "git"
+libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle.git"
+libraries[jquery.cycle][download][branch] = "master"
+libraries[jquery.cycle][directory_name] = "jquery.cycle"
+libraries[jquery.cycle][destination] = "libraries"
 
-libraries[json2]
+libraries[json2][download][type] = "git"
+libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js.git"
+libraries[json2][download][branch] = "master"
+libraries[json2][directory_name] = "json2"
+libraries[json2][destination] = "libraries"
 
 libraries[phpsass][download][type] = "git"
 libraries[phpsass][download][url] = "https://github.com/richthegeek/phpsass.git"
@@ -362,10 +369,12 @@ libraries[phpsass][download][branch] = "master"
 libraries[phpsass][directory_name] = "phpsass"
 libraries[phpsass][destination] = "libraries"
 
-libraries[tcpdf]
+libraries[tcpdf][download][type] = "get"
+libraries[tcpdf][download][url] = "http://downloads.sourceforge.net/project/tcpdf/tcpdf_5_9_207.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Ftcpdf%2F&ts=1362953686&use_mirror=aarnet"
+libraries[tcpdf][directory_name] = "tcpdf"
+libraries[tcpdf][destination] = "libraries"
 
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.5.8.zip"
 libraries[tinymce][directory_name] = "tinymce"
 libraries[tinymce][destination] = "libraries"
-
