@@ -26,3 +26,8 @@ projects[skunkworks][download][branch] = "skunkworks-drush-make"
 ; Base make file, includes all contrib projects to go into sites/all.
 ;
 includes[base_drupal] = "base_drupal.make"
+
+;
+; Grab the custom FoA modules for sites/all.
+;
+includes[foa_custom] = "foa_custom.make"
