@@ -255,6 +255,11 @@ projects[workbench_access][subdir] = contrib
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = contrib
 
+projects[wysiwyg_fields][version] = "1.x-dev"
+projects[wysiwyg_fields][subdir] = contrib
+; Stop wysiwyg_fields running its own makefile.
+projects[wysiwyg_fields][patch][] = "http://drupalcode.org/project/wysiwyg_fields.git/blob_plain/refs/heads/7.x-1.x:/no_makefile.patch"
+
 projects[wysiwyg_spellcheck][version] = "1.1"
 projects[wysiwyg_spellcheck][subdir] = contrib
 
