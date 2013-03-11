@@ -2,25 +2,25 @@ Faculty of Arts Drupal Platform
 -------------------------------
 
 This repository contains makefiles for use with the drush utility. They allow
-you to quickly build a full Drupal 7 platform without needing to manuually
+you to quickly build a full Drupal 7 platform without needing to manually
 fetch and install all contributed modules and libraries.
 
-The created platform includes both the standarf `FoA' install profile as well
-as the new `Skunkworks' profile with bootstrap theme for mobile-mostly sites.
+The created platform includes both the standard 'FoA' install profile as well
+as the new 'Skunkworks' profile with bootstrap theme for mobile-mostly sites.
 
-You can use the `platform.make' file with Aegir as well.
+You can use the 'platform.make' file with Aegir as well.
 
 USAGE
 -----
 
-Run `drush make platform.make /target' and sit back whilst the magic happens.
+Run `drush make platform.make /target` and sit back whilst the magic happens.
 
 
 UPDATE
 ------
 
 To update core or contributed modules, simply change the appropriate version
-numbers in `foa_base.make'.
+numbers in 'foa_base.make'.
 
 NOTE
 ----
