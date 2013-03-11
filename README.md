@@ -10,20 +10,20 @@ as the new 'Skunkworks' profile with bootstrap theme for mobile-mostly sites.
 
 You can use the 'platform.make' file with Aegir as well.
 
-USAGE
+Usage
 -----
 
 Run `drush make platform.make /target` and sit back whilst the magic happens.
 
-
-UPDATE
-------
+Updates
+-------
 
 To update core or contributed modules, simply change the appropriate version
 numbers in 'foa_base.make'.
 
-NOTE
-----
+Please create a tag in this git repository as appropriate.
 
-The created platform does not include any git checkouts or submodules of code,
-themes or libraries.
+Notes
+-----
+
+ * The created platform does not include any git checkouts or submodules of code, themes or libraries.
