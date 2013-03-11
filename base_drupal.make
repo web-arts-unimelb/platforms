@@ -56,9 +56,6 @@ projects[ctools][subdir] = contrib
 projects[customerror][version] = "1.x-dev"
 projects[customerror][subdir] = contrib
 
-projects[custom_formatters][version] = "2.2"
-projects[custom_formatters][subdir] = contrib
-
 projects[date][version] = "2.6"
 projects[date][subdir] = contrib
 
@@ -167,7 +164,7 @@ projects[jquery_update][subdir] = contrib
 projects[ldap][version] = "1.0-beta12"
 projects[ldap][subdir] = contrib
 ; @see http://drupal.org/node/1775658
-projects[ldap][patch][] = http://drupal.org/files/ldap_server_init-1775658-1.patch
+; projects[ldap][patch][] = http://drupal.org/files/ldap_server_init-1775658-1.patch
 
 projects[libraries][version] = "2.0"
 projects[libraries][subdir] = contrib
