@@ -174,6 +174,7 @@ projects[pathologic][subdir] = contrib
 
 projects[quicktabs][version] = "3.4"
 projects[quicktabs][subdir] = contrib
+projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs-collapse_on_load_option-1023378-13.patch"
 
 projects[radioactivity][version] = "2.6"
 projects[radioactivity][subdir] = contrib
