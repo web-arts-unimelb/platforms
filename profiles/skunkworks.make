@@ -25,6 +25,8 @@ projects[ctools][subdir] = contrib
 
 projects[custom_formatters][version] = "2.2"
 projects[custom_formatters][subdir] = contrib
+; @see http://drupal.org/node/1939118
+projects[custom_formatters][patch][] = "http://drupal.org/files/no_makefile.patch"
 
 projects[date][version] = "2.6"
 projects[date][subdir] = contrib
@@ -71,7 +73,7 @@ projects[jquery_update][subdir] = contrib
 projects[ldap][version] = "1.0-beta12"
 projects[ldap][subdir] = contrib
 ; @see http://drupal.org/node/1775658
-projects[ldap][patch][] = http://drupal.org/files/ldap_server_init-1775658-1.patch
+; projects[ldap][patch][] = http://drupal.org/files/ldap_server_init-1775658-1.patch
 
 projects[libraries][version] = "2.0"
 projects[libraries][subdir] = contrib
@@ -138,7 +140,7 @@ projects[askunimelb_widgets][subdir] = custom
 ;
 ; Themes used by the Skunkworks install profile.
 ;
-projects[bootstrap][version] = "2.0"
+projects[bootstrap][version] = "2.x-dev"
 projects[bootstrap][subdir] = contrib
 
 projects[rubik][version] = "4.0-beta8"

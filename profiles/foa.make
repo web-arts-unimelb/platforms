@@ -5,7 +5,7 @@ core = 7.x
 ;
 ; Contrib modules used by the FoA install profile.
 ;
-projects[admin_menu][version] = "3.0-rc3"
+projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = contrib
 
 projects[auto_nodetitle][version] = "1.0"
@@ -28,6 +28,8 @@ projects[ctools][subdir] = contrib
 
 projects[custom_formatters][version] = "2.2"
 projects[custom_formatters][subdir] = contrib
+; @see http://drupal.org/node/1939118
+projects[custom_formatters][patch][] = "http://drupal.org/files/no_makefile.patch"
 
 projects[date][version] = "2.6"
 projects[date][subdir] = contrib
@@ -56,7 +58,7 @@ projects[field_group][subdir] = contrib
 projects[filefield_sources][version] = "1.7"
 projects[filefield_sources][subdir] = contrib
 
-projects[insert][version] = "1.2"
+projects[insert][version] = "1.3"
 projects[insert][subdir] = contrib
 
 projects[insert_video][version] = "1.x-dev"
@@ -68,15 +70,15 @@ projects[jquerymenu][subdir] = contrib
 projects[jquery_ui][version] = "1.x-dev"
 projects[jquery_ui][subdir] = contrib
 
-projects[jquery_update][version] = "2.2"
+projects[jquery_update][version] = "2.3"
 projects[jquery_update][subdir] = contrib
 
 projects[ldap][version] = "1.0-beta12"
 projects[ldap][subdir] = contrib
 ; @see http://drupal.org/node/1775658
-projects[ldap][patch][] = http://drupal.org/files/ldap_server_init-1775658-1.patch
+; projects[ldap][patch][] = http://drupal.org/files/ldap_server_init-1775658-1.patch
 
-projects[libraries][version] = "2.0"
+projects[libraries][version] = "2.1"
 projects[libraries][subdir] = contrib
 
 projects[link][version] = "1.1"
@@ -114,7 +116,7 @@ projects[search_config][subdir] = contrib
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = contrib
 
-projects[token][version] = "1.4"
+projects[token][version] = "1.5"
 projects[token][subdir] = contrib
 
 projects[views][version] = "3.5"
@@ -131,9 +133,6 @@ projects[views_slideshow][subdir] = contrib
 
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = contrib
-
-projects[wysiwyg_fields][version] = "1.x-dev"
-projects[wysiwyg_fields][subdir] = contrib
 
 ;
 ; Custom modules used by the FoA install profile.
