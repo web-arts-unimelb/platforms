@@ -244,7 +244,7 @@ projects[pathologic][version] = "2.10"
 projects[pathologic][subdir] = contrib
 
 projects[prepro][version] = "0.10"
-projects[prepro][subdir] = contri
+projects[prepro][subdir] = contrib
 
 projects[quicktabs][version] = "3.4"
 projects[quicktabs][subdir] = contrib
