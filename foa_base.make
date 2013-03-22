@@ -50,9 +50,6 @@ projects[content_access][subdir] = contrib
 projects[content_access_admin][version] = "1.x-dev"
 projects[content_access_admin][subdir] = contrib
 
-projects[colorbox][version] = "1.4"
-projects[colorbox][subdir] = contrib
-
 projects[css_splitter][version] = "1.x-dev"
 projects[css_splitter][subdir] = contrib
 
@@ -160,7 +157,7 @@ projects[imce_mkdir][subdir] = contrib
 projects[imce_wysiwyg][version] = "1.x-dev"
 projects[imce_wysiwyg][subdir] = contrib
 
-projects[insert][version] = "1.2"
+projects[insert][version] = "1.3"
 projects[insert][subdir] = contrib
 
 projects[insert_video][version] = "1.x-dev"
@@ -300,7 +297,7 @@ projects[themekey][subdir] = contrib
 projects[title][version] = "1.0-alpha4"
 projects[title][subdir] = contrib
 
-projects[token][version] = "1.4"
+projects[token][version] = "1.5"
 projects[token][subdir] = contrib
 
 projects[transliteration][version] = "3.1"
