@@ -377,11 +377,6 @@ libraries[phpsass][download][branch] = "master"
 libraries[phpsass][directory_name] = "phpsass"
 libraries[phpsass][destination] = "libraries"
 
-libraries[tcpdf][download][type] = "get"
-libraries[tcpdf][download][url] = "http://downloads.sourceforge.net/project/tcpdf/tcpdf_6_0_000.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Ftcpdf%2Ffiles%2F&ts=1363567624&use_mirror=aarnet"
-libraries[tcpdf][directory_name] = "tcpdf"
-libraries[tcpdf][destination] = "libraries"
-
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.5.8.zip"
 libraries[tinymce][directory_name] = "tinymce"
