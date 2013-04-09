@@ -240,7 +240,7 @@ projects[pathauto][subdir] = contrib
 projects[pathologic][version] = "2.10"
 projects[pathologic][subdir] = contrib
 
-projects[prepro][version] = "0.10"
+projects[prepro][version] = "1.2"
 projects[prepro][subdir] = contrib
 
 projects[quicktabs][version] = "3.4"
