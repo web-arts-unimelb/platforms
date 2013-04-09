@@ -53,7 +53,7 @@ projects[content_access_admin][subdir] = contrib
 projects[css_splitter][version] = "1.x-dev"
 projects[css_splitter][subdir] = contrib
 
-projects[ctools][version] = "1.2"
+projects[ctools][version] = "1.3"
 projects[ctools][subdir] = contrib
 
 projects[custom_formatters][version] = "2.2"
@@ -261,7 +261,7 @@ projects[redirect][patch][] = http://drupal.org/files/redirect-detect_prevent_ci
 projects[revisioning][version] = "1.4"
 projects[revisioning][subdir] = contrib
 
-projects[rules][version] = "2.2"
+projects[rules][version] = "2.3"
 projects[rules][subdir] = contrib
 
 projects[sassy][version] = "2.13"
@@ -336,7 +336,7 @@ projects[webform_conditional][subdir] = contrib
 projects[webform_node_element][version] = "1.2"
 projects[webform_node_element][subdir] = contrib
 
-projects[webform_validation][version] = "1.1"
+projects[webform_validation][version] = "1.2"
 projects[webform_validation][subdir] = contrib
 
 projects[workbench_access][version] = "1.0"
