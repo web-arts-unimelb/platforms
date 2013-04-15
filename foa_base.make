@@ -79,14 +79,15 @@ projects[ds][subdir] = contrib
 projects[email][version] = "1.2"
 projects[email][subdir] = contrib
 
-projects[entity][version] = "1.0-rc3"
+projects[entity][version] = "1.0"
 projects[entity][subdir] = contrib
 
-projects[entityreference][version] = "1.0-rc5"
+projects[entityreference][version] = "1.0"
 projects[entityreference][subdir] = contrib
 
-projects[entity_translation][version] = "1.0-alpha2"
-projects[entity_translation][subdir] = contrib
+; We're not currently using translations.
+; projects[entity_translation][version] = "1.0-beta2"
+; projects[entity_translation][subdir] = contrib
 
 projects[features][version] = "1.0"
 projects[features][subdir] = contrib
