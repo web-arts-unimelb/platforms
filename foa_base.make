@@ -76,6 +76,9 @@ projects[draggableviews][subdir] = contrib
 projects[ds][version] = "2.2"
 projects[ds][subdir] = contrib
 
+projects[elements][version] = "1.3"
+projects[elements][subdir] = contrib
+
 projects[email][version] = "1.2"
 projects[email][subdir] = contrib
 
