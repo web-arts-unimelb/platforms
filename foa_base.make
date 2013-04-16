@@ -137,8 +137,9 @@ projects[google_analytics][subdir] = contrib
 projects[httprl][version] = "1.10"
 projects[httprl][subdir] = contrib
 
-projects[i18n][version] = "1.7"
-projects[i18n][subdir] = contrib
+; We're not currently using translations.
+; projects[i18n][version] = "1.7"
+; projects[i18n][subdir] = contrib
 
 projects[ie6update][version] = "1.x-dev"
 projects[ie6update][subdir] = contrib
@@ -195,6 +196,9 @@ projects[media_feeds][subdir] = contrib
 
 projects[media_youtube][version] = "2.0-rc1"
 projects[media_youtube][subdir] = contrib
+
+projects[memcache][version] = "1.0"
+projects[memcache][subdir] = contrib
 
 projects[menu_admin_per_menu][version] = "1.0"
 projects[menu_admin_per_menu][subdir] = contrib
@@ -318,6 +322,9 @@ projects[views][subdir] = contrib
 
 projects[views_bulk_operations][version] = "3.1"
 projects[views_bulk_operations][subdir] = contrib
+
+projects[views_litepager][version] = "3.0"
+projects[views_litepager][subdir] = contrib
 
 projects[views_slideshow][version] = "3.0"
 projects[views_slideshow][subdir] = contrib
