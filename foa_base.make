@@ -320,7 +320,7 @@ projects[uuid][subdir] = contrib
 projects[variable][version] = "2.1"
 projects[variable][subdir] = contrib
 
-projects[views][version] = "3.6"
+projects[views][version] = "3.7"
 projects[views][subdir] = contrib
 
 projects[views_bulk_operations][version] = "3.1"
