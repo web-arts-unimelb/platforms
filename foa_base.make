@@ -44,10 +44,10 @@ projects[colorbox][subdir] = contrib
 projects[conditional_fields][version] = "3.x-dev"
 projects[conditional_fields][subdir] = contrib
 
-projects[content_access][version] = "1.2-beta1"
+projects[content_access][version] = "1.2-beta2"
 projects[content_access][subdir] = contrib
 
-projects[content_access_admin][version] = "7.x-1.2-beta2"
+projects[content_access_admin][version] = "1.x-dev"
 projects[content_access_admin][subdir] = contrib
 
 projects[css_splitter][version] = "1.x-dev"
