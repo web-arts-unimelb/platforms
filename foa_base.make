@@ -8,11 +8,11 @@ core = 7.x
 projects[acl][version] = "1.0"
 projects[acl][subdir] = contrib
 
+projects[addressfield][version] = "1.0-beta4"
+projects[addressfield][subdir] = contrib
+
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = contrib
-
-projects[addressfield][version] = "1.0-beta3"
-projects[addressfield][subdir] = contrib
 
 projects[advanced_help][version] = "1.0"
 projects[advanced_help][subdir] = contrib
@@ -23,7 +23,7 @@ projects[auto_nodetitle][subdir] = contrib
 projects[better_formats][version] = "1.0-beta1"
 projects[better_formats][subdir] = contrib
 
-projects[browscap][version] = "1.3"
+projects[browscap][version] = "2.0"
 projects[browscap][subdir] = contrib
 
 projects[bundle_copy][version] = "1.1"
@@ -47,7 +47,7 @@ projects[conditional_fields][subdir] = contrib
 projects[content_access][version] = "1.2-beta1"
 projects[content_access][subdir] = contrib
 
-projects[content_access_admin][version] = "1.x-dev"
+projects[content_access_admin][version] = "7.x-1.2-beta2"
 projects[content_access_admin][subdir] = contrib
 
 projects[css_splitter][version] = "1.x-dev"
@@ -73,7 +73,7 @@ projects[diff][subdir] = contrib
 projects[draggableviews][version] = "2.0"
 projects[draggableviews][subdir] = contrib
 
-projects[ds][version] = "2.2"
+projects[ds][version] = "2.3"
 projects[ds][subdir] = contrib
 
 projects[elements][version] = "1.3"
@@ -82,7 +82,7 @@ projects[elements][subdir] = contrib
 projects[email][version] = "1.2"
 projects[email][subdir] = contrib
 
-projects[entity][version] = "1.0"
+projects[entity][version] = "1.1"
 projects[entity][subdir] = contrib
 
 projects[entityreference][version] = "1.0"
@@ -95,16 +95,16 @@ projects[entityreference][subdir] = contrib
 projects[features][version] = "1.0"
 projects[features][subdir] = contrib
 
-projects[feeds][version] = "2.0-alpha7"
+projects[feeds][version] = "2.0-alpha8"
 projects[feeds][subdir] = contrib
 
 projects[feeds_tamper][version] = "1.0-beta4"
 projects[feeds_tamper][subdir] = contrib
 
-projects[feeds_xpathparser][version] = "1.0-beta3"
+projects[feeds_xpathparser][version] = "1.0-beta4"
 projects[feeds_xpathparser][subdir] = contrib
 
-projects[field_collection][version] = "1.0-beta4"
+projects[field_collection][version] = "1.0-beta5"
 projects[field_collection][subdir] = contrib
 
 projects[field_group][version] = "1.1"
@@ -119,7 +119,7 @@ projects[fieldset_helper][subdir] = contrib
 projects[field_validation][version] = "2.3"
 projects[field_validation][subdir] = contrib
 
-projects[filefield_sources][version] = "1.7"
+projects[filefield_sources][version] = "1.8"
 projects[filefield_sources][subdir] = contrib
 
 ; projects[geocoder][version] = "1.2"
@@ -128,7 +128,7 @@ projects[filefield_sources][subdir] = contrib
 ; projects[geofield][version] = "1.1"
 ; projects[geofield][subdir] = contrib
 
-; projects[geophp][version] = "1.6"
+; projects[geophp][version] = "1.7"
 ; projects[geophp][subdir] = contrib
 
 projects[globalredirect][version] = "1.5"
@@ -137,7 +137,7 @@ projects[globalredirect][subdir] = contrib
 projects[google_analytics][version] = "1.3"
 projects[google_analytics][subdir] = contrib
 
-projects[httprl][version] = "1.10"
+projects[httprl][version] = "1.11"
 projects[httprl][subdir] = contrib
 
 ; We're not currently using translations.
@@ -197,7 +197,7 @@ projects[media][subdir] = contrib
 projects[media_feeds][version] = "2.0-alpha1"
 projects[media_feeds][subdir] = contrib
 
-projects[media_youtube][version] = "2.0-rc1"
+projects[media_youtube][version] = "2.0-rc3"
 projects[media_youtube][subdir] = contrib
 
 projects[memcache][version] = "1.0"
@@ -224,13 +224,13 @@ projects[menu_node_views][subdir] = contrib
 projects[module_filter][version] = "1.7"
 projects[module_filter][subdir] = contrib
 
-projects[mollom][version] = "2.3"
+projects[mollom][version] = "2.6"
 projects[mollom][subdir] = contrib
 
 projects[nice_menus][version] = "2.0"
 projects[nice_menus][subdir] = contrib
 
-projects[nodeblock][version] = "1.2"
+projects[nodeblock][version] = "1.3"
 projects[nodeblock][subdir] = contrib
 
 projects[nodequeue][version] = "2.0-beta1"
@@ -314,10 +314,10 @@ projects[transliteration][subdir] = contrib
 projects[userprotect][version] = "1.0"
 projects[userprotect][subdir] = contrib
 
-projects[uuid][version] = "1.0-alpha3"
+projects[uuid][version] = "1.0-alpha4"
 projects[uuid][subdir] = contrib
 
-projects[variable][version] = "2.1"
+projects[variable][version] = "2.2"
 projects[variable][subdir] = contrib
 
 projects[views][version] = "3.7"
