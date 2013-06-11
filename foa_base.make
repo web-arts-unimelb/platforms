@@ -38,7 +38,7 @@ projects[cck][subdir] = contrib
 projects[cck_blocks][version] = "1.1"
 projects[cck_blocks][subdir] = contrib
 
-projects[colorbox][version] = "1.5"
+projects[colorbox][version] = "1.6"
 projects[colorbox][subdir] = contrib
 
 projects[conditional_fields][version] = "3.x-dev"
@@ -359,7 +359,7 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg_fields][version] = "1.x-dev"
 projects[wysiwyg_fields][subdir] = contrib
 ; Stop wysiwyg_fields running its own makefile.
-projects[wysiwyg_fields][patch][] = "http://drupalcode.org/project/wysiwyg_fields.git/blob_plain/refs/heads/7.x-1.x:/no_makefile.patch"
+; projects[wysiwyg_fields][patch][] = "http://drupalcode.org/project/wysiwyg_fields.git/blob_plain/refs/heads/7.x-1.x:/no_makefile.patch"
 
 projects[wysiwyg_spellcheck][version] = "1.1"
 projects[wysiwyg_spellcheck][subdir] = contrib
