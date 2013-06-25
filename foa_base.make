@@ -353,6 +353,9 @@ projects[webform_validation][subdir] = contrib
 projects[workbench_access][version] = "1.0"
 projects[workbench_access][subdir] = contrib
 
+projects[form_builder][version] = "1.4"
+projects[form_builder][subdir] = contrib
+
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = contrib
 
