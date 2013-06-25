@@ -364,6 +364,10 @@ projects[wysiwyg_fields][subdir] = contrib
 projects[wysiwyg_spellcheck][version] = "1.1"
 projects[wysiwyg_spellcheck][subdir] = contrib
 
+projects[superfish][version] = "1.9"
+projects[superfish][subdir] = contrib
+
+
 ;
 ; Libraries to go into sites/all
 ;
@@ -395,6 +399,12 @@ libraries[timepicker][download][url] = "https://github.com/wvega/timepicker.git"
 libraries[timepicker][download][branch] = "master"
 libraries[timepicker][directory_name] = "wvega-timepicker"
 libraries[timepicker][destination] = "libraries"
+
+libraries[superfish][download][type] = "git"
+libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal.git"
+libraries[superfish][download][branch] = "master"
+libraries[superfish][directory_name] = "superfish"
+libraries[superfish][destination] = "libraries"
 
 ;
 ; Themes to go into sites/all
