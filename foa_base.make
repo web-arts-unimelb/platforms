@@ -177,7 +177,7 @@ projects[jquery_ui][subdir] = contrib
 projects[ldap][version] = "1.0-beta12"
 projects[ldap][subdir] = contrib
 ; @see http://drupal.org/node/1775658
-; projects[ldap][patch][] = http://drupal.org/files/ldap_server_init-1775658-1.patch
+projects[ldap][patch][] = http://drupal.org/files/ldap_server_init-1775658-1.patch
 
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = contrib
