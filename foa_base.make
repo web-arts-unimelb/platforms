@@ -44,6 +44,9 @@ projects[colorbox][subdir] = contrib
 projects[conditional_fields][version] = "3.x-dev"
 projects[conditional_fields][subdir] = contrib
 
+projects[configuration][version] = "2.x-dev"
+projects[configuration][subdir] = "contrib"
+
 projects[content_access][version] = "1.2-beta2"
 projects[content_access][subdir] = contrib
 
@@ -121,6 +124,9 @@ projects[field_validation][subdir] = contrib
 
 projects[filefield_sources][version] = "1.8"
 projects[filefield_sources][subdir] = contrib
+
+projects[form_builder][version] = "1.4"
+projects[form_builder][subdir] = contrib
 
 ; projects[geocoder][version] = "1.2"
 ; projects[geocoder][subdir] = contrib
@@ -293,6 +299,9 @@ projects[stringoverrides][subdir] = contrib
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = contrib
 
+projects[superfish][version] = "1.9"
+projects[superfish][subdir] = contrib
+
 projects[taxonomy_access][version] = "1.0-rc1"
 projects[taxonomy_access][subdir] = contrib
 
@@ -332,7 +341,7 @@ projects[views_litepager][subdir] = contrib
 projects[views_slideshow][version] = "3.0"
 projects[views_slideshow][subdir] = contrib
 
-projects[webform][version] = "4.0-alpha6"
+projects[webform][version] = "4.0-alpha8"
 projects[webform][subdir] = contrib
 
 projects[webform2pdf][version] = "3.x-dev"
@@ -353,9 +362,6 @@ projects[webform_validation][subdir] = contrib
 projects[workbench_access][version] = "1.0"
 projects[workbench_access][subdir] = contrib
 
-projects[form_builder][version] = "1.4"
-projects[form_builder][subdir] = contrib
-
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = contrib
 
@@ -367,9 +373,8 @@ projects[wysiwyg_fields][subdir] = contrib
 projects[wysiwyg_spellcheck][version] = "1.1"
 projects[wysiwyg_spellcheck][subdir] = contrib
 
-projects[superfish][version] = "1.9"
-projects[superfish][subdir] = contrib
-
+projects[xautoload][version] = "3.x-dev"
+projects[xautoload][subdir] = "contrib"
 
 ;
 ; Libraries to go into sites/all
@@ -397,17 +402,17 @@ libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce
 libraries[tinymce][directory_name] = "tinymce"
 libraries[tinymce][destination] = "libraries"
 
-libraries[timepicker][download][type] = "git"
-libraries[timepicker][download][url] = "https://github.com/wvega/timepicker.git"
-libraries[timepicker][download][branch] = "master"
-libraries[timepicker][directory_name] = "wvega-timepicker"
-libraries[timepicker][destination] = "libraries"
-
 libraries[superfish][download][type] = "git"
 libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal.git"
 libraries[superfish][download][branch] = "master"
 libraries[superfish][directory_name] = "superfish"
 libraries[superfish][destination] = "libraries"
+
+libraries[timepicker][download][type] = "git"
+libraries[timepicker][download][url] = "https://github.com/wvega/timepicker.git"
+libraries[timepicker][download][branch] = "master"
+libraries[timepicker][directory_name] = "wvega-timepicker"
+libraries[timepicker][destination] = "libraries"
 
 ;
 ; Themes to go into sites/all
