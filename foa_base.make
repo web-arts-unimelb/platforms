@@ -238,6 +238,7 @@ projects[nice_menus][subdir] = contrib
 
 projects[nodeblock][version] = "1.3"
 projects[nodeblock][subdir] = contrib
+projects[nodeblock][patch][] = "http://drupalcode.org/project/nodeblock.git/patch/a572a78"
 
 projects[nodequeue][version] = "2.0-beta1"
 projects[nodequeue][subdir] = contrib
