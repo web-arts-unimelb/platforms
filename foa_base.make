@@ -197,6 +197,9 @@ projects[linkchecker][subdir] = contrib
 projects[linkit][version] = "2.6"
 projects[linkit][subdir] = contrib
 
+projects[maxlength][version] = "3.0-beta1"
+projects[maxlength][subdir] = contrib
+
 projects[media][version] = "1.3"
 projects[media][subdir] = contrib
 
