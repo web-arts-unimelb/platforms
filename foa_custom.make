@@ -18,5 +18,5 @@ libraries[custom][destination] = "modules"
 libraries[custom][directory_name] = "custom/arts_shared"
 libraries[custom][download][type] = "git"
 libraries[custom][download][url] = "https://github.com/web-arts-unimelb/custom.git"
-libraries[custom][download][branch] = "drupal-7.22"
+libraries[custom][download][branch] = "drupal-7.23"
 libraries[custom][download][working-copy] = TRUE
