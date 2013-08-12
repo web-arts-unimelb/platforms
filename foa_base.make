@@ -255,7 +255,7 @@ projects[panels][subdir] = contrib
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = contrib
 
-projects[pathologic][version] = "2.10"
+projects[pathologic][version] = "2.11"
 projects[pathologic][subdir] = contrib
 
 projects[prepro][version] = "1.2"
@@ -312,7 +312,7 @@ projects[taxonomy_access][subdir] = contrib
 projects[taxonomy_csv][version] = "5.10"
 projects[taxonomy_csv][subdir] = contrib
 
-projects[themekey][version] = "2.3"
+projects[themekey][version] = "2.5"
 projects[themekey][subdir] = contrib
 
 projects[title][version] = "1.0-alpha4"
@@ -345,7 +345,7 @@ projects[views_litepager][subdir] = contrib
 projects[views_slideshow][version] = "3.0"
 projects[views_slideshow][subdir] = contrib
 
-projects[webform][version] = "4.0-alpha8"
+projects[webform][version] = "4.0-alpha10"
 projects[webform][subdir] = contrib
 
 projects[webform2pdf][version] = "3.x-dev"
