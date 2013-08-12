@@ -4,7 +4,7 @@ api = 2
 ;
 ; Drupal core
 ;
-projects[drupal][version] = 7.22
+projects[drupal][version] = 7.23
 
 ;
 ; Main FoA profile.
