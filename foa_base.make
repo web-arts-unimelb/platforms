@@ -125,6 +125,9 @@ projects[field_validation][subdir] = contrib
 projects[filefield_sources][version] = "1.8"
 projects[filefield_sources][subdir] = contrib
 
+projects[filefield_paths][version] = "7.x-1.0-beta4"
+projects[filefield_paths][subdir] = contrib
+
 projects[form_builder][version] = "1.4"
 projects[form_builder][subdir] = contrib
 
