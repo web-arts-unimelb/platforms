@@ -85,7 +85,7 @@ projects[elements][subdir] = contrib
 projects[email][version] = "1.2"
 projects[email][subdir] = contrib
 
-projects[entity][version] = "1.1"
+projects[entity][version] = "1.2"
 projects[entity][subdir] = contrib
 
 projects[entityreference][version] = "1.0"
@@ -182,8 +182,10 @@ projects[jquery_ui][subdir] = contrib
 
 projects[ldap][version] = "1.0-beta12"
 projects[ldap][subdir] = contrib
+; Though this patch applies, it makes the drush make build fail. Disabled it
+; so remember to enable it manually! ;-)
 ; @see http://drupal.org/node/1775658
-projects[ldap][patch][] = http://drupal.org/files/ldap_server_init-1775658-1.patch
+; projects[ldap][patch][] = http://drupal.org/files/ldap_server_init-1775658-1.patch
 
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = contrib
@@ -377,7 +379,7 @@ projects[wysiwyg_fields][subdir] = contrib
 projects[wysiwyg_spellcheck][version] = "1.1"
 projects[wysiwyg_spellcheck][subdir] = contrib
 
-projects[xautoload][version] = "3.x-dev"
+projects[xautoload][version] = "3.2"
 projects[xautoload][subdir] = "contrib"
 
 ;
