@@ -23,6 +23,9 @@ projects[auto_nodetitle][subdir] = contrib
 projects[better_formats][version] = "1.0-beta1"
 projects[better_formats][subdir] = contrib
 
+projects[block_class][version] = "2.0"
+projects[lock_class][subdir] = contrib
+
 projects[browscap][version] = "2.0"
 projects[browscap][subdir] = contrib
 
