@@ -115,7 +115,7 @@ projects[feeds_xpathparser][subdir] = contrib
 projects[field_collection][version] = "1.0-beta5"
 projects[field_collection][subdir] = contrib
 
-projects[field_group][version] = "1.1"
+projects[field_group][version] = "1.2"
 projects[field_group][subdir] = contrib
 
 projects[field_permissions][version] = "1.0-beta2"
@@ -238,7 +238,7 @@ projects[menu_node][subdir] = contrib
 projects[menu_node_views][version] = "1.x-dev"
 projects[menu_node_views][subdir] = contrib
 
-projects[module_filter][version] = "1.7"
+projects[module_filter][version] = "1.8"
 projects[module_filter][subdir] = contrib
 
 projects[mollom][version] = "2.6"
