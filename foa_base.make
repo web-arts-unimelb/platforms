@@ -374,7 +374,7 @@ projects[webform_validation][subdir] = contrib
 projects[workbench_access][version] = "1.0"
 projects[workbench_access][subdir] = contrib
 
-projects[admin_menu_source][version] = "7.x-1.x-dev"
+projects[admin_menu_source][version] = "1.x-dev"
 projects[admin_menu_source][subdir] = contrib
 
 projects[wysiwyg][version] = "2.2"
