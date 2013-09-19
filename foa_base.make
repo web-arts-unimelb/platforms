@@ -381,6 +381,9 @@ projects[workbench_access][subdir] = contrib
 projects[admin_menu_source][version] = "1.x-dev"
 projects[admin_menu_source][subdir] = contrib
 
+projects[flood_unblock][version] = "1.0"
+projects[flood_unblock][subdir] = contrib
+
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = contrib
 
