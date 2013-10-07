@@ -205,8 +205,8 @@ projects[linkchecker][subdir] = contrib
 projects[linkit][version] = "2.6"
 projects[linkit][subdir] = contrib
 
-projects[logintoboggan][] = "1.3"
-projects[ogintoboggan][subdir] = contrib
+projects[logintoboggan][version] = "1.3"
+projects[logintoboggan][subdir] = contrib
 
 projects[maxlength][version] = "3.0-beta1"
 projects[maxlength][subdir] = contrib
