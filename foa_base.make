@@ -21,6 +21,10 @@ projects[auto_nodetitle][version] = "1.0"
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][patch][] = "https://drupal.org/files/auto_nodetitle-dont_double_escape_titles-565922-26.patch"
 
+; auto_nodetitle replacement
+projects[auto_entitylabel][version] = "1.x-dev"
+projects[auto_entitylabel][subdir] = contrib
+
 projects[better_formats][version] = "1.0-beta1"
 projects[better_formats][subdir] = contrib
 
