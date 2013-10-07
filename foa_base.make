@@ -105,7 +105,7 @@ projects[features][subdir] = contrib
 projects[feeds][version] = "2.0-alpha8"
 projects[feeds][subdir] = contrib
 
-projects[feeds_tamper][version] = "1.0-beta4"
+projects[feeds_tamper][version] = "1.0-beta5"
 projects[feeds_tamper][subdir] = contrib
 
 projects[feeds_xpathparser][version] = "1.0-beta4"
@@ -114,7 +114,7 @@ projects[feeds_xpathparser][subdir] = contrib
 projects[field_collection][version] = "1.0-beta5"
 projects[field_collection][subdir] = contrib
 
-projects[field_group][version] = "1.2"
+projects[field_group][version] = "1.3"
 projects[field_group][subdir] = contrib
 
 projects[field_permissions][version] = "1.0-beta2"
@@ -257,7 +257,7 @@ projects[nodeblock][patch][] = "http://drupalcode.org/project/nodeblock.git/patc
 projects[nodequeue][version] = "2.0-beta1"
 projects[nodequeue][subdir] = contrib
 
-projects[options_element][version] = "1.7"
+projects[options_element][version] = "1.9"
 projects[options_element][subdir] = contrib
 
 projects[panels][version] = "3.3"
@@ -272,9 +272,9 @@ projects[pathologic][subdir] = contrib
 projects[prepro][version] = "1.2"
 projects[prepro][subdir] = contrib
 
-projects[quicktabs][version] = "3.5"
+projects[quicktabs][version] = "3.6"
 projects[quicktabs][subdir] = contrib
-projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs-collapse_on_load_option-1023378-13.patch"
+; Applied to 3.6 - projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs-collapse_on_load_option-1023378-13.patch"
 projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs_dont_hide_if_no_content_7.x-3.5-766924-52.patch"
 
 
@@ -358,14 +358,14 @@ projects[views_litepager][subdir] = contrib
 projects[views_slideshow][version] = "3.0"
 projects[views_slideshow][subdir] = contrib
 
-projects[webform][version] = "4.0-alpha10"
+projects[webform][version] = "4.0-beta1"
 projects[webform][subdir] = contrib
 
 projects[webform2pdf][version] = "3.x-dev"
 projects[webform2pdf][subdir] = contrib
 projects[webform2pdf][patch][] = "https://drupal.org/files/issue-2029527-3-webform2pdf.install.fatal_error.patch"
 
-projects[webform_autocomplete][version] = "1.1"
+projects[webform_autocomplete][version] = "1.2"
 projects[webform_autocomplete][subdir] = contrib
 
 projects[webform_conditional][version] = "2.x-dev"
@@ -374,7 +374,7 @@ projects[webform_conditional][subdir] = contrib
 projects[webform_node_element][version] = "1.2"
 projects[webform_node_element][subdir] = contrib
 
-projects[webform_validation][version] = "1.2"
+projects[webform_validation][version] = "1.3"
 projects[webform_validation][subdir] = contrib
 
 projects[workbench_access][version] = "1.0"
