@@ -161,6 +161,9 @@ projects[httprl][subdir] = contrib
 ; projects[i18n][version] = "1.7"
 ; projects[i18n][subdir] = contrib
 
+projects[hierarchical_select][version] = "3.x-dev"
+projects[hierarchical_select][subdir] = contrib
+
 projects[ie6update][version] = "1.x-dev"
 projects[ie6update][subdir] = contrib
 
