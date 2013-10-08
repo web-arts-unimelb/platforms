@@ -369,6 +369,9 @@ projects[views_litepager][subdir] = contrib
 projects[views_slideshow][version] = "3.0"
 projects[views_slideshow][subdir] = contrib
 
+projects[views_data_export][version] = "3.x-dev"
+projects[views_data_export][subdir] = contrib
+
 projects[webform][version] = "4.0-beta1"
 projects[webform][subdir] = contrib
 
