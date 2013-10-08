@@ -298,7 +298,7 @@ projects[realname][subdir] = contrib
 projects[redirect][version] = "1.0-rc1"
 projects[redirect][subdir] = contrib
 ; @see http://drupal.org/node/1796596
-projects[redirect][patch][] = http://drupal.org/files/redirect-detect_prevent_circular_redirects_patch_and_test-1796596-48.patch
+projects[redirect][patch][] = 'http://drupal.org/files/redirect-detect_prevent_circular_redirects_patch_and_test-1796596-48.patch'
 
 projects[revisioning][version] = "1.4"
 projects[revisioning][subdir] = contrib
@@ -315,8 +315,9 @@ projects[securepages][subdir] = contrib
 projects[security_review][version] = "1.0"
 projects[security_review][subdir] = contrib
 
-projects[select_or_other][version] = "2.11"
+projects[select_or_other][version] = "3.x-dev"
 projects[select_or_other][subdir] = contrib
+projects[select_or_other][patch][] = 'https://drupal.org/files/select_or_other-integrate_term_reference-1716764-27.patch' 
 
 projects[smartcrop][version] = "1.0-beta2"
 projects[smartcrop][subdir] = contrib
