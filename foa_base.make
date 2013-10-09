@@ -120,6 +120,9 @@ projects[field_collection][subdir] = contrib
 ; See https://drupal.org/node/1549364#comment-6212222
 projects[field_collection][patch][] = "https://drupal.org/files/field_collection-fields-not-saving-1549364.patch"
 
+projects[field_collection_views][version] = "1.x-dev"
+projects[field_collection_views][subdir] = contrib
+
 projects[field_group][version] = "1.3"
 projects[field_group][subdir] = contrib
 
