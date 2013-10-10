@@ -1,4 +1,5 @@
-; FoA Drupal base makefile.
+;
+FoA Drupal base makefile.
 api = 2
 core = 7.x
 
@@ -86,6 +87,9 @@ projects[draggableviews][subdir] = contrib
 
 projects[ds][version] = "2.3"
 projects[ds][subdir] = contrib
+
+projects[disable_breadcrumbs][version] = "1.x-dev"
+projects[disable_breadcrumbs][subdir] = contrib
 
 projects[elements][version] = "1.3"
 projects[elements][subdir] = contrib
