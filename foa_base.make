@@ -346,6 +346,9 @@ projects[taxonomy_access][subdir] = contrib
 projects[taxonomy_csv][version] = "5.10"
 projects[taxonomy_csv][subdir] = contrib
 
+projects[content_taxonomy][version] = "1.0-beta2"
+projects[content_taxonomy][subdir] = contrib
+
 projects[themekey][version] = "2.5"
 projects[themekey][subdir] = contrib
 
