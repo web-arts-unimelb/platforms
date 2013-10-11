@@ -358,6 +358,9 @@ projects[token][subdir] = contrib
 projects[transliteration][version] = "3.1"
 projects[transliteration][subdir] = contrib
 
+projects[taxonomy_manager][version] = "1.x-dev"
+projects[taxonomy_manager][subdir] = contrib
+
 projects[userprotect][version] = "1.0"
 projects[userprotect][subdir] = contrib
 
