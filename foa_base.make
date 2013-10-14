@@ -263,6 +263,12 @@ projects[module_filter][subdir] = contrib
 projects[mollom][version] = "2.6"
 projects[mollom][subdir] = contrib
 
+projects[mailsystem][version] = "2.34"
+projects[mailsystem][subdir] = contrib
+
+projects[mimemail][version] = "1.0-beta1"
+projects[mimemail][subdir] = contrib
+
 projects[nice_menus][version] = "2.0"
 projects[nice_menus][subdir] = contrib
 
