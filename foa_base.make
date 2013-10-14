@@ -394,6 +394,9 @@ projects[views_slideshow][subdir] = contrib
 projects[views_data_export][version] = "3.x-dev"
 projects[views_data_export][subdir] = contrib
 
+projects[views_pdf][version] = "1.1"
+projects[views_pdf][subdir] = contrib
+
 projects[webform][version] = "4.0-beta1"
 projects[webform][subdir] = contrib
 
