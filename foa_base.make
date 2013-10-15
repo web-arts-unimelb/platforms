@@ -1,4 +1,5 @@
-; FoA Drupal base makefile.
+;
+FoA Drupal base makefile.
 api = 2
 core = 7.x
 
@@ -20,6 +21,10 @@ projects[advanced_help][subdir] = contrib
 projects[auto_nodetitle][version] = "1.0"
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][patch][] = "https://drupal.org/files/auto_nodetitle-dont_double_escape_titles-565922-26.patch"
+
+; auto_nodetitle replacement
+projects[auto_entitylabel][version] = "1.x-dev"
+projects[auto_entitylabel][subdir] = contrib
 
 projects[better_formats][version] = "1.0-beta1"
 projects[better_formats][subdir] = contrib
@@ -83,6 +88,9 @@ projects[draggableviews][subdir] = contrib
 projects[ds][version] = "2.3"
 projects[ds][subdir] = contrib
 
+projects[disable_breadcrumbs][version] = "1.x-dev"
+projects[disable_breadcrumbs][subdir] = contrib
+
 projects[elements][version] = "1.3"
 projects[elements][subdir] = contrib
 
@@ -105,16 +113,21 @@ projects[features][subdir] = contrib
 projects[feeds][version] = "2.0-alpha8"
 projects[feeds][subdir] = contrib
 
-projects[feeds_tamper][version] = "1.0-beta4"
+projects[feeds_tamper][version] = "1.0-beta5"
 projects[feeds_tamper][subdir] = contrib
 
 projects[feeds_xpathparser][version] = "1.0-beta4"
 projects[feeds_xpathparser][subdir] = contrib
 
-projects[field_collection][version] = "1.0-beta5"
+projects[field_collection][version] = "7.x-1.x-dev"
 projects[field_collection][subdir] = contrib
+; See https://drupal.org/node/1549364#comment-6212222
+projects[field_collection][patch][] = "https://drupal.org/files/field_collection-fields-not-saving-1549364.patch"
 
-projects[field_group][version] = "1.2"
+projects[field_collection_views][version] = "1.x-dev"
+projects[field_collection_views][subdir] = contrib
+
+projects[field_group][version] = "1.3"
 projects[field_group][subdir] = contrib
 
 projects[field_permissions][version] = "1.0-beta2"
@@ -157,6 +170,9 @@ projects[httprl][subdir] = contrib
 ; projects[i18n][version] = "1.7"
 ; projects[i18n][subdir] = contrib
 
+projects[hierarchical_select][version] = "3.x-dev"
+projects[hierarchical_select][subdir] = contrib
+
 projects[ie6update][version] = "1.x-dev"
 projects[ie6update][subdir] = contrib
 
@@ -191,6 +207,7 @@ projects[ldap][version] = "1.0-beta12"
 projects[ldap][subdir] = contrib
 ; @see http://drupal.org/node/1775658
 projects[ldap][patch][] = http://drupal.org/files/ldap_server_init-1775658-1.patch
+projects[ldap][patch][] = http://drupal.org/files/ldap-7.x-1.0-beta12-early-exist.txt
 
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = contrib
@@ -204,8 +221,8 @@ projects[linkchecker][subdir] = contrib
 projects[linkit][version] = "2.6"
 projects[linkit][subdir] = contrib
 
-projects[logintoboggan][] = "1.3"
-projects[ogintoboggan][subdir] = contrib
+projects[logintoboggan][version] = "1.3"
+projects[logintoboggan][subdir] = contrib
 
 projects[maxlength][version] = "3.0-beta1"
 projects[maxlength][subdir] = contrib
@@ -246,6 +263,12 @@ projects[module_filter][subdir] = contrib
 projects[mollom][version] = "2.6"
 projects[mollom][subdir] = contrib
 
+projects[mailsystem][version] = "2.34"
+projects[mailsystem][subdir] = contrib
+
+projects[mimemail][version] = "1.0-beta1"
+projects[mimemail][subdir] = contrib
+
 projects[nice_menus][version] = "2.0"
 projects[nice_menus][subdir] = contrib
 
@@ -256,7 +279,7 @@ projects[nodeblock][patch][] = "http://drupalcode.org/project/nodeblock.git/patc
 projects[nodequeue][version] = "2.0-beta1"
 projects[nodequeue][subdir] = contrib
 
-projects[options_element][version] = "1.7"
+projects[options_element][version] = "1.9"
 projects[options_element][subdir] = contrib
 
 projects[panels][version] = "3.3"
@@ -271,9 +294,15 @@ projects[pathologic][subdir] = contrib
 projects[prepro][version] = "1.2"
 projects[prepro][subdir] = contrib
 
-projects[quicktabs][version] = "3.4"
+projects[prepopulate][version] = "2.x-dev"
+projects[prepopulate][subdir] = contrib
+
+
+projects[quicktabs][version] = "3.6"
 projects[quicktabs][subdir] = contrib
-projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs-collapse_on_load_option-1023378-13.patch"
+; Applied to 3.6 - projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs-collapse_on_load_option-1023378-13.patch"
+projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs_dont_hide_if_no_content_7.x-3.5-766924-52.patch"
+
 
 projects[radioactivity][version] = "2.6"
 projects[radioactivity][subdir] = contrib
@@ -284,7 +313,7 @@ projects[realname][subdir] = contrib
 projects[redirect][version] = "1.0-rc1"
 projects[redirect][subdir] = contrib
 ; @see http://drupal.org/node/1796596
-projects[redirect][patch][] = http://drupal.org/files/redirect-detect_prevent_circular_redirects_patch_and_test-1796596-48.patch
+projects[redirect][patch][] = 'http://drupal.org/files/redirect-detect_prevent_circular_redirects_patch_and_test-1796596-48.patch'
 
 projects[revisioning][version] = "1.4"
 projects[revisioning][subdir] = contrib
@@ -301,8 +330,9 @@ projects[securepages][subdir] = contrib
 projects[security_review][version] = "1.0"
 projects[security_review][subdir] = contrib
 
-projects[select_or_other][version] = "2.11"
+projects[select_or_other][version] = "3.x-dev"
 projects[select_or_other][subdir] = contrib
+projects[select_or_other][patch][] = 'https://drupal.org/files/select_or_other-integrate_term_reference-1716764-27.patch' 
 
 projects[smartcrop][version] = "1.0-beta2"
 projects[smartcrop][subdir] = contrib
@@ -322,6 +352,9 @@ projects[taxonomy_access][subdir] = contrib
 projects[taxonomy_csv][version] = "5.10"
 projects[taxonomy_csv][subdir] = contrib
 
+projects[content_taxonomy][version] = "1.0-beta2"
+projects[content_taxonomy][subdir] = contrib
+
 projects[themekey][version] = "2.5"
 projects[themekey][subdir] = contrib
 
@@ -333,6 +366,9 @@ projects[token][subdir] = contrib
 
 projects[transliteration][version] = "3.1"
 projects[transliteration][subdir] = contrib
+
+projects[taxonomy_manager][version] = "1.x-dev"
+projects[taxonomy_manager][subdir] = contrib
 
 projects[userprotect][version] = "1.0"
 projects[userprotect][subdir] = contrib
@@ -355,6 +391,12 @@ projects[views_litepager][subdir] = contrib
 projects[views_slideshow][version] = "3.0"
 projects[views_slideshow][subdir] = contrib
 
+projects[views_data_export][version] = "3.x-dev"
+projects[views_data_export][subdir] = contrib
+
+projects[views_pdf][version] = "1.1"
+projects[views_pdf][subdir] = contrib
+
 projects[webform][version] = "4.0-beta1"
 projects[webform][subdir] = contrib
 
@@ -362,7 +404,7 @@ projects[webform2pdf][version] = "3.x-dev"
 projects[webform2pdf][subdir] = contrib
 projects[webform2pdf][patch][] = "https://drupal.org/files/issue-2029527-3-webform2pdf.install.fatal_error.patch"
 
-projects[webform_autocomplete][version] = "1.1"
+projects[webform_autocomplete][version] = "1.2"
 projects[webform_autocomplete][subdir] = contrib
 
 projects[webform_conditional][version] = "2.x-dev"
@@ -371,7 +413,7 @@ projects[webform_conditional][subdir] = contrib
 projects[webform_node_element][version] = "1.2"
 projects[webform_node_element][subdir] = contrib
 
-projects[webform_validation][version] = "1.2"
+projects[webform_validation][version] = "1.3"
 projects[webform_validation][subdir] = contrib
 
 projects[workbench_access][version] = "1.0"
@@ -379,6 +421,9 @@ projects[workbench_access][subdir] = contrib
 
 projects[admin_menu_source][version] = "1.x-dev"
 projects[admin_menu_source][subdir] = contrib
+
+projects[flood_unblock][version] = "1.0"
+projects[flood_unblock][subdir] = contrib
 
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = contrib
