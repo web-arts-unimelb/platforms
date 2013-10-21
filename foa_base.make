@@ -362,6 +362,9 @@ projects[title][subdir] = contrib
 projects[token][version] = "1.5"
 projects[token][subdir] = contrib
 
+projects[token_custom][version] = "2.x-dev"
+projects[token_custom][subdir] = contrib
+
 projects[transliteration][version] = "3.1"
 projects[transliteration][subdir] = contrib
 
