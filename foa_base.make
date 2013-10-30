@@ -413,7 +413,8 @@ projects[webform][subdir] = contrib
 
 projects[webform2pdf][version] = "3.x-dev"
 projects[webform2pdf][subdir] = contrib
-projects[webform2pdf][patch][] = "https://drupal.org/files/issue-2029527-3-webform2pdf.install.fatal_error.patch"
+projects[webform2pdf][patch][] = "http://drupal.org/files/issue-2029527-3-webform2pdf.install.fatal_error.patch"
+projects[webform2pdf][patch][] = "http://drupal.org/files/issue-1950550-7-webform2pdf.AliasNbPages-deprecated.patch"
 
 projects[webform_autocomplete][version] = "1.2"
 projects[webform_autocomplete][subdir] = contrib
