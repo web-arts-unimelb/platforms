@@ -26,6 +26,13 @@ projects[auto_nodetitle][patch][] = "https://drupal.org/files/auto_nodetitle-don
 projects[auto_entitylabel][version] = "1.x-dev"
 projects[auto_entitylabel][subdir] = contrib
 
+projects[auto_entitylabel][version] = "1.x-dev"
+projects[auto_entitylabel][subdir] = contrib
+
+projects[autocomplete_widgets][version] = "1.x-dev"
+projects[autocomplete_widgets][subdir] = contrib
+
+
 projects[better_formats][version] = "1.0-beta1"
 projects[better_formats][subdir] = contrib
 
@@ -268,6 +275,9 @@ projects[mailsystem][subdir] = contrib
 
 projects[mimemail][version] = "1.0-beta1"
 projects[mimemail][subdir] = contrib
+
+projects[markup][version] = "1.1-beta1"
+projects[markup][subdir] = contrib
 
 projects[nice_menus][version] = "2.0"
 projects[nice_menus][subdir] = contrib
