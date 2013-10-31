@@ -134,6 +134,9 @@ projects[field_collection][patch][] = "https://drupal.org/files/field_collection
 projects[field_collection_views][version] = "1.x-dev"
 projects[field_collection_views][subdir] = contrib
 
+projects[field_collection_table][version] = "1.x-dev"
+projects[field_collection_table][subdir] = contrib
+
 projects[field_group][version] = "1.3"
 projects[field_group][subdir] = contrib
 
@@ -430,6 +433,12 @@ projects[webform_validation][subdir] = contrib
 
 projects[webform_multifile][version] = "1.x-dev"
 projects[webform_multifile][subdir] = contrib
+
+projects[webform_addmore][version] = "1.x-dev"
+projects[webform_addmore][subdir] = contrib
+
+projects[webform_table_element][version] = "4.x-dev"
+projects[webform_table_element][subdir] = contrib
 
 projects[workbench_access][version] = "1.0"
 projects[workbench_access][subdir] = contrib
