@@ -301,7 +301,7 @@ projects[prepopulate][subdir] = contrib
 projects[quicktabs][version] = "3.6"
 projects[quicktabs][subdir] = contrib
 ; Applied to 3.6 - projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs-collapse_on_load_option-1023378-13.patch"
-projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs_dont_hide_if_no_content_7.x-3.5-766924-52.patch"
+; Disabled, this patch hides tabs with contents - projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs_dont_hide_if_no_content_7.x-3.5-766924-52.patch"
 
 
 projects[radioactivity][version] = "2.6"
