@@ -26,6 +26,13 @@ projects[auto_nodetitle][patch][] = "https://drupal.org/files/auto_nodetitle-don
 projects[auto_entitylabel][version] = "1.x-dev"
 projects[auto_entitylabel][subdir] = contrib
 
+projects[auto_entitylabel][version] = "1.x-dev"
+projects[auto_entitylabel][subdir] = contrib
+
+projects[autocomplete_widgets][version] = "1.x-dev"
+projects[autocomplete_widgets][subdir] = contrib
+
+
 projects[better_formats][version] = "1.0-beta1"
 projects[better_formats][subdir] = contrib
 
@@ -126,6 +133,9 @@ projects[field_collection][patch][] = "https://drupal.org/files/field_collection
 
 projects[field_collection_views][version] = "1.x-dev"
 projects[field_collection_views][subdir] = contrib
+
+projects[field_collection_table][version] = "1.x-dev"
+projects[field_collection_table][subdir] = contrib
 
 projects[field_group][version] = "1.3"
 projects[field_group][subdir] = contrib
@@ -269,6 +279,9 @@ projects[mailsystem][subdir] = contrib
 projects[mimemail][version] = "1.0-beta1"
 projects[mimemail][subdir] = contrib
 
+projects[markup][version] = "1.1-beta1"
+projects[markup][subdir] = contrib
+
 projects[nice_menus][version] = "2.0"
 projects[nice_menus][subdir] = contrib
 
@@ -301,8 +314,8 @@ projects[prepopulate][subdir] = contrib
 projects[quicktabs][version] = "3.6"
 projects[quicktabs][subdir] = contrib
 ; Applied to 3.6 - projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs-collapse_on_load_option-1023378-13.patch"
-; Disabled, this patch hides tabs with contents - projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs_dont_hide_if_no_content_7.x-3.5-766924-52.patch"
-
+projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs_dont_hide_if_no_content_7.x-3.5-766924-52.patch"
+projects[quicktabs][patch][] = "https://drupal.org/files/quicktabs.user-interface.2108935-3.patch"
 
 projects[radioactivity][version] = "2.6"
 projects[radioactivity][subdir] = contrib
@@ -364,6 +377,9 @@ projects[title][subdir] = contrib
 projects[token][version] = "1.5"
 projects[token][subdir] = contrib
 
+projects[token_custom][version] = "2.x-dev"
+projects[token_custom][subdir] = contrib
+
 projects[transliteration][version] = "3.1"
 projects[transliteration][subdir] = contrib
 
@@ -402,7 +418,8 @@ projects[webform][subdir] = contrib
 
 projects[webform2pdf][version] = "3.x-dev"
 projects[webform2pdf][subdir] = contrib
-projects[webform2pdf][patch][] = "https://drupal.org/files/issue-2029527-3-webform2pdf.install.fatal_error.patch"
+projects[webform2pdf][patch][] = "http://drupal.org/files/issue-2029527-3-webform2pdf.install.fatal_error.patch"
+projects[webform2pdf][patch][] = "http://drupal.org/files/issue-1950550-7-webform2pdf.AliasNbPages-deprecated.patch"
 
 projects[webform_autocomplete][version] = "1.2"
 projects[webform_autocomplete][subdir] = contrib
@@ -415,6 +432,15 @@ projects[webform_node_element][subdir] = contrib
 
 projects[webform_validation][version] = "1.3"
 projects[webform_validation][subdir] = contrib
+
+projects[webform_multifile][version] = "1.x-dev"
+projects[webform_multifile][subdir] = contrib
+
+projects[webform_addmore][version] = "1.x-dev"
+projects[webform_addmore][subdir] = contrib
+
+projects[webform_table_element][version] = "4.x-dev"
+projects[webform_table_element][subdir] = contrib
 
 projects[workbench_access][version] = "1.0"
 projects[workbench_access][subdir] = contrib
