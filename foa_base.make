@@ -409,6 +409,7 @@ projects[views_litepager][subdir] = contrib
 
 projects[views_slideshow][version] = "3.0"
 projects[views_slideshow][subdir] = contrib
+projects[views_slideshow][patch][] = "http://drupal.org/files/issues/patch_375.txt"
 
 projects[views_data_export][version] = "3.x-dev"
 projects[views_data_export][subdir] = contrib
