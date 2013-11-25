@@ -23,7 +23,7 @@ projects[advanced_help][subdir] = contrib
 
 projects[auto_nodetitle][version] = "1.0"
 projects[auto_nodetitle][subdir] = contrib
-projects[auto_nodetitle][patch][] = "https://drupal.org/files/auto_nodetitle-dont_double_escape_titles-565922-26.patch"
+projects[auto_nodetitle][patch][] = "https://www.drupal.org/files/auto_nodetitle-dont_double_escape_titles-565922-26.patch"
 
 ; auto_nodetitle replacement
 projects[auto_entitylabel][version] = "1.x-dev"
@@ -81,7 +81,7 @@ projects[ctools][subdir] = contrib
 projects[custom_formatters][version] = "2.2"
 projects[custom_formatters][subdir] = contrib
 ; @see http://drupal.org/node/1939118
-projects[custom_formatters][patch][] = "http://drupal.org/files/no_makefile.patch"
+projects[custom_formatters][patch][] = "https://www.drupal.org/files/no_makefile.patch"
 
 projects[date][version] = "2.6"
 projects[date][subdir] = contrib
@@ -132,7 +132,7 @@ projects[feeds_xpathparser][subdir] = contrib
 projects[field_collection][version] = "1.x-dev"
 projects[field_collection][subdir] = contrib
 ; See https://drupal.org/node/1549364#comment-6212222
-projects[field_collection][patch][] = "https://drupal.org/files/field_collection-fields-not-saving-1549364.patch"
+projects[field_collection][patch][] = "https://www.drupal.org/files/field_collection-fields-not-saving-1549364.patch"
 
 projects[field_collection_views][version] = "1.x-dev"
 projects[field_collection_views][subdir] = contrib
@@ -219,8 +219,8 @@ projects[jquery_ui][subdir] = contrib
 projects[ldap][version] = "1.0-beta12"
 projects[ldap][subdir] = contrib
 ; @see http://drupal.org/node/1775658
-projects[ldap][patch][] = http://drupal.org/files/ldap_server_init-1775658-1.patch
-projects[ldap][patch][] = http://drupal.org/files/ldap-7.x-1.0-beta12-early-exist.txt
+projects[ldap][patch][] = https://www.drupal.org/files/ldap_server_init-1775658-1.patch
+projects[ldap][patch][] = https://www.drupal.org/files/ldap-7.x-1.0-beta12-early-exist.txt
 
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = contrib
@@ -317,8 +317,8 @@ projects[prepopulate][subdir] = contrib
 projects[quicktabs][version] = "3.6"
 projects[quicktabs][subdir] = contrib
 ; Applied to 3.6 - projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs-collapse_on_load_option-1023378-13.patch"
-projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs_dont_hide_if_no_content_7.x-3.5-766924-52.patch"
-projects[quicktabs][patch][] = "https://drupal.org/files/quicktabs.user-interface.2108935-3.patch"
+projects[quicktabs][patch][] = "https://www.drupal.org/files/quicktabs_dont_hide_if_no_content_7.x-3.5-766924-52.patch"
+projects[quicktabs][patch][] = "https://www.drupal.org/files/quicktabs.user-interface.2108935-3.patch"
 
 projects[radioactivity][version] = "2.6"
 projects[radioactivity][subdir] = contrib
@@ -329,7 +329,7 @@ projects[realname][subdir] = contrib
 projects[redirect][version] = "1.0-rc1"
 projects[redirect][subdir] = contrib
 ; @see http://drupal.org/node/1796596
-projects[redirect][patch][] = 'http://drupal.org/files/redirect-detect_prevent_circular_redirects_patch_and_test-1796596-48.patch'
+projects[redirect][patch][] = 'https://www.drupal.org/files/redirect-detect_prevent_circular_redirects_patch_and_test-1796596-48.patch'
 
 projects[revisioning][version] = "1.4"
 projects[revisioning][subdir] = contrib
@@ -348,7 +348,7 @@ projects[security_review][subdir] = contrib
 
 projects[select_or_other][version] = "3.x-dev"
 projects[select_or_other][subdir] = contrib
-projects[select_or_other][patch][] = 'https://drupal.org/files/select_or_other-integrate_term_reference-1716764-27.patch' 
+projects[select_or_other][patch][] = 'https://www.drupal.org/files/select_or_other-integrate_term_reference-1716764-27.patch' 
 
 projects[smartcrop][version] = "1.0-beta2"
 projects[smartcrop][subdir] = contrib
@@ -421,8 +421,8 @@ projects[webform][subdir] = contrib
 
 projects[webform2pdf][version] = "3.x-dev"
 projects[webform2pdf][subdir] = contrib
-projects[webform2pdf][patch][] = "http://drupal.org/files/issue-2029527-3-webform2pdf.install.fatal_error.patch"
-projects[webform2pdf][patch][] = "http://drupal.org/files/issue-1950550-7-webform2pdf.AliasNbPages-deprecated.patch"
+projects[webform2pdf][patch][] = "https://www.drupal.org/files/issue-2029527-3-webform2pdf.install.fatal_error.patch"
+projects[webform2pdf][patch][] = "https://www.drupal.org/files/issue-1950550-7-webform2pdf.AliasNbPages-deprecated.patch"
 
 projects[webform_autocomplete][version] = "1.2"
 projects[webform_autocomplete][subdir] = contrib
