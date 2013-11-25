@@ -152,7 +152,7 @@ projects[fieldset_helper][subdir] = contrib
 projects[field_validation][version] = "2.3"
 projects[field_validation][subdir] = contrib
 
-projects[filefield_sources][version] = "1.8"
+projects[filefield_sources][version] = "1.9"
 projects[filefield_sources][subdir] = contrib
 
 projects[filefield_paths][version] = "1.0-beta4"
@@ -225,7 +225,7 @@ projects[ldap][patch][] = http://drupal.org/files/ldap-7.x-1.0-beta12-early-exis
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = contrib
 
-projects[link][version] = "1.1"
+projects[link][version] = "1.2"
 projects[link][subdir] = contrib
 
 projects[linkchecker][version] = "1.1"
@@ -246,7 +246,7 @@ projects[media][subdir] = contrib
 projects[media_feeds][version] = "2.0-alpha1"
 projects[media_feeds][subdir] = contrib
 
-projects[media_youtube][version] = "2.0-rc3"
+projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][subdir] = contrib
 
 projects[memcache][version] = "1.0"
@@ -407,7 +407,7 @@ projects[views_bulk_operations][subdir] = contrib
 projects[views_litepager][version] = "3.0"
 projects[views_litepager][subdir] = contrib
 
-projects[views_slideshow][version] = "3.0"
+projects[views_slideshow][version] = "3.1"
 projects[views_slideshow][subdir] = contrib
 
 projects[views_data_export][version] = "3.x-dev"
