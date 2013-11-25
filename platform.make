@@ -6,7 +6,7 @@ api = 2
 ;
 projects[drupal][version] = 7.24
 ; states.js vs. jquery_update. See https://drupal.org/node/2018791
-projects[drupal][patch][] = "https://drupal.org/files/states_0.patch"
+projects[drupal][patch][] = "https://www.drupal.org/files/states_0.patch"
 
 ;
 ; Main FoA profile.
