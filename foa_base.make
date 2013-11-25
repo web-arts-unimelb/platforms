@@ -337,6 +337,9 @@ projects[revisioning][subdir] = contrib
 projects[rules][version] = "2.3"
 projects[rules][subdir] = contrib
 
+projects[search404][version] = "1.3"
+projects[search404][subdir]  = "contrib"
+
 projects[sassy][version] = "2.13"
 projects[sassy][subdir] = contrib
 
