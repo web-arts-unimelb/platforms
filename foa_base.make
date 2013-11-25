@@ -18,6 +18,9 @@ projects[addressfield_tokens][subdir] = contrib
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = contrib
 
+projects[admin_menu_source][version] = "1.x-dev"
+projects[admin_menu_source][subdir] = contrib
+
 projects[advanced_help][version] = "1.0"
 projects[advanced_help][subdir] = contrib
 
@@ -157,6 +160,9 @@ projects[filefield_sources][subdir] = contrib
 
 projects[filefield_paths][version] = "1.0-beta4"
 projects[filefield_paths][subdir] = contrib
+
+projects[flood_unblock][version] = "1.0"
+projects[flood_unblock][subdir] = contrib
 
 projects[form_builder][version] = "1.4"
 projects[form_builder][subdir] = contrib
@@ -424,8 +430,9 @@ projects[webform][subdir] = contrib
 
 projects[webform2pdf][version] = "3.x-dev"
 projects[webform2pdf][subdir] = contrib
-projects[webform2pdf][patch][] = "https://www.drupal.org/files/issue-2029527-3-webform2pdf.install.fatal_error.patch"
-projects[webform2pdf][patch][] = "https://www.drupal.org/files/issue-1950550-7-webform2pdf.AliasNbPages-deprecated.patch"
+; The following two patches have been applied to 3.x-dev.
+; projects[webform2pdf][patch][] = "https://www.drupal.org/files/issue-2029527-3-webform2pdf.install.fatal_error.patch"
+; projects[webform2pdf][patch][] = "https://www.drupal.org/files/issue-1950550-7-webform2pdf.AliasNbPages-deprecated.patch"
 
 projects[webform_autocomplete][version] = "1.2"
 projects[webform_autocomplete][subdir] = contrib
@@ -450,12 +457,6 @@ projects[webform_table_element][subdir] = contrib
 
 projects[workbench_access][version] = "1.0"
 projects[workbench_access][subdir] = contrib
-
-projects[admin_menu_source][version] = "1.x-dev"
-projects[admin_menu_source][subdir] = contrib
-
-projects[flood_unblock][version] = "1.0"
-projects[flood_unblock][subdir] = contrib
 
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = contrib
