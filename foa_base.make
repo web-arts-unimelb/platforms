@@ -113,6 +113,9 @@ projects[entity][subdir] = contrib
 projects[entityreference][version] = "1.0"
 projects[entityreference][subdir] = contrib
 
+projects[entity_view_mode][version] = "1.0-rc1"
+projects[entity_view_mode][subdir] = contrib
+
 ; We're not currently using translations.
 ; projects[entity_translation][version] = "1.0-beta2"
 ; projects[entity_translation][subdir] = contrib
