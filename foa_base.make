@@ -71,6 +71,8 @@ projects[content_access][subdir] = contrib
 
 projects[content_access_admin][version] = "1.x-dev"
 projects[content_access_admin][subdir] = contrib
+; @see https://drupal.org/node/2152841
+projects[content_access_admin][patch][] = "http://drupal.org/files/issues/content_access_admin.module.patch"
 
 projects[css_splitter][version] = "1.x-dev"
 projects[css_splitter][subdir] = contrib
