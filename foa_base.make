@@ -364,7 +364,8 @@ projects[stringoverrides][subdir] = contrib
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = contrib
 
-projects[superfish][version] = "1.9"
+; 1.x-dev is mobile responsive 
+projects[superfish][version] = "1.x-dev"
 projects[superfish][subdir] = contrib
 
 projects[taxonomy_access][version] = "1.0-rc1"
