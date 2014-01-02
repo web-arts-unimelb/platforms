@@ -342,6 +342,9 @@ projects[revisioning][subdir] = contrib
 projects[rules][version] = "2.3"
 projects[rules][subdir] = contrib
 
+projects[remove_field_label_length_limit][version] = "1.x-dev"
+projects[remove_field_label_length_limit][subdir] = contrib
+
 projects[sassy][version] = "2.13"
 projects[sassy][subdir] = contrib
 
