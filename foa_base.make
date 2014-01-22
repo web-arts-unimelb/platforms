@@ -464,8 +464,14 @@ projects[admin_menu_source][subdir] = contrib
 projects[flood_unblock][version] = "1.0"
 projects[flood_unblock][subdir] = contrib
 
-projects[wysiwyg][version] = "2.2"
+projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = contrib
+
+; https://drupal.org/node/1963766
+; http://stackoverflow.com/questions/2695731/how-to-make-tinymce-paste-in-plain-text-by-default
+projects[wysiwyg][patch][] = "https://drupal.org/files/wysiwyg-1963766-10.patch"
+
+
 
 projects[wysiwyg_fields][version] = "1.x-dev"
 projects[wysiwyg_fields][subdir] = contrib
