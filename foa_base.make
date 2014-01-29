@@ -341,6 +341,8 @@ projects[revisioning][subdir] = contrib
 
 projects[rules][version] = "2.3"
 projects[rules][subdir] = contrib
+; https://drupal.org/node/1541888
+projects[rules][patch][] = 'http://drupal.org/files/1541888-rules-RulesEventSet-10.patch'
 
 projects[remove_field_label_length_limit][version] = "1.x-dev"
 projects[remove_field_label_length_limit][subdir] = contrib
