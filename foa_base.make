@@ -245,14 +245,17 @@ projects[logintoboggan][subdir] = contrib
 projects[maxlength][version] = "3.0-beta1"
 projects[maxlength][subdir] = contrib
 
-projects[media][version] = "1.3"
+projects[media][version] = "1.4"
 projects[media][subdir] = contrib
 
 projects[media_feeds][version] = "2.0-alpha1"
 projects[media_feeds][subdir] = contrib
 
-projects[media_youtube][version] = "2.0-rc3"
+projects[media_youtube][version] = "2.x-dev"
 projects[media_youtube][subdir] = contrib
+
+projects[media_vimeo][version] = "2.x-dev"
+projects[media_vimeo][subdir] = contrib
 
 projects[memcache][version] = "1.0"
 projects[memcache][subdir] = contrib
