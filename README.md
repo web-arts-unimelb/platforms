@@ -14,6 +14,7 @@ Usage
 -----
 
 Run `drush make platform.make /target` and sit back whilst the magic happens.
+E.g. `drush make platform.make /var/aegir/platforms/staging/drupal-7.26` (drupal-7.26 cannot exist beforehand)
 
 Updates
 -------
