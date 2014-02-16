@@ -134,7 +134,7 @@ projects[feeds_tamper][subdir] = contrib
 projects[feeds_xpathparser][version] = "1.0-beta4"
 projects[feeds_xpathparser][subdir] = contrib
 
-projects[field_collection][version] = "7.x-1.x-dev"
+projects[field_collection][version] = "1.x-dev"
 projects[field_collection][subdir] = contrib
 ; See https://drupal.org/node/1549364#comment-6212222
 projects[field_collection][patch][] = "https://drupal.org/files/field_collection-fields-not-saving-1549364.patch"
