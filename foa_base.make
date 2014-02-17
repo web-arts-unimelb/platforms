@@ -72,7 +72,8 @@ projects[content_access][subdir] = contrib
 projects[content_access_admin][version] = "1.x-dev"
 projects[content_access_admin][subdir] = contrib
 ; @see https://drupal.org/node/2152841
-projects[content_access_admin][patch][] = "http://drupal.org/files/issues/content_access_admin.module.patch"
+; Cannot apply patch
+; projects[content_access_admin][patch][] = "http://drupal.org/files/issues/content_access_admin.module.patch"
 
 projects[css_splitter][version] = "1.x-dev"
 projects[css_splitter][subdir] = contrib
@@ -134,7 +135,7 @@ projects[feeds_tamper][subdir] = contrib
 projects[feeds_xpathparser][version] = "1.0-beta4"
 projects[feeds_xpathparser][subdir] = contrib
 
-projects[field_collection][version] = "7.x-1.x-dev"
+projects[field_collection][version] = "1.x-dev"
 projects[field_collection][subdir] = contrib
 ; See https://drupal.org/node/1549364#comment-6212222
 projects[field_collection][patch][] = "https://drupal.org/files/field_collection-fields-not-saving-1549364.patch"
@@ -439,8 +440,9 @@ projects[webform][subdir] = contrib
 
 projects[webform2pdf][version] = "3.x-dev"
 projects[webform2pdf][subdir] = contrib
-projects[webform2pdf][patch][] = "http://drupal.org/files/issue-2029527-3-webform2pdf.install.fatal_error.patch"
-projects[webform2pdf][patch][] = "http://drupal.org/files/issue-1950550-7-webform2pdf.AliasNbPages-deprecated.patch"
+; Cannot apply patch
+;projects[webform2pdf][patch][] = "http://drupal.org/files/issue-2029527-3-webform2pdf.install.fatal_error.patch"
+;projects[webform2pdf][patch][] = "http://drupal.org/files/issue-1950550-7-webform2pdf.AliasNbPages-deprecated.patch"
 
 projects[webform_autocomplete][version] = "1.2"
 projects[webform_autocomplete][subdir] = contrib
@@ -477,7 +479,8 @@ projects[wysiwyg][subdir] = contrib
 
 ; https://drupal.org/node/1963766
 ; http://stackoverflow.com/questions/2695731/how-to-make-tinymce-paste-in-plain-text-by-default
-projects[wysiwyg][patch][] = "https://drupal.org/files/wysiwyg-1963766-10.patch"
+; Cannot apply patch
+; projects[wysiwyg][patch][] = "https://drupal.org/files/wysiwyg-1963766-10.patch"
 
 
 
