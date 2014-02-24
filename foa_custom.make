@@ -12,11 +12,11 @@ projects[askunimelb_widgets][subdir] = custom
 projects[askunimelb_widgets][download][type] = "git"
 projects[askunimelb_widgets][download][url] = "https://github.com/web-arts-unimelb/askunimelb_widgets.git"
 projects[askunimelb_widgets][download][branch] = "master"
-projects[askunimelb_widgets][download][working-copy] = TRUE
+projects[askunimelb_widgets][options][working-copy] = TRUE
 
 libraries[custom][destination] = "modules"
 libraries[custom][directory_name] = "custom/arts_shared"
 libraries[custom][download][type] = "git"
 libraries[custom][download][url] = "https://github.com/web-arts-unimelb/custom.git"
 libraries[custom][download][branch] = "drupal-7.26"
-libraries[custom][download][working-copy] = TRUE
+libraries[custom][options][working-copy] = TRUE
