@@ -126,7 +126,7 @@ projects[entity_view_mode][subdir] = contrib
 projects[features][version] = "1.0"
 projects[features][subdir] = contrib
 
-projects[feeds][version] = "2.0-alpha8"
+projects[feeds][version] = "2.x-dev"
 projects[feeds][subdir] = contrib
 
 projects[feeds_tamper][version] = "1.0-beta5"
