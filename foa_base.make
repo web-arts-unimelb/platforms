@@ -89,7 +89,7 @@ projects[custom_formatters][patch][] = "http://drupal.org/files/no_makefile.patc
 projects[date][version] = "2.6"
 projects[date][subdir] = contrib
 
-projects[devel][version] = "1.3"
+projects[devel][version] = "1.4"
 projects[devel][subdir] = contrib
 
 projects[diff][version] = "3.2"
