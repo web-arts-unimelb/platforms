@@ -23,7 +23,7 @@ projects[advanced_help][subdir] = contrib
 
 projects[auto_nodetitle][version] = "1.0"
 projects[auto_nodetitle][subdir] = contrib
-projects[auto_nodetitle][patch][] = "https://drupal.org/files/auto_nodetitle-dont_double_escape_titles-565922-26.patch"
+projects[auto_nodetitle][patch][] = "http://drupal.org/files/auto_nodetitle-dont_double_escape_titles-565922-26.patch"
 
 ; auto_nodetitle replacement
 projects[auto_entitylabel][version] = "1.x-dev"
@@ -138,7 +138,7 @@ projects[feeds_xpathparser][subdir] = contrib
 projects[field_collection][version] = "1.x-dev"
 projects[field_collection][subdir] = contrib
 ; See https://drupal.org/node/1549364#comment-6212222
-projects[field_collection][patch][] = "https://drupal.org/files/field_collection-fields-not-saving-1549364.patch"
+projects[field_collection][patch][] = "http://drupal.org/files/field_collection-fields-not-saving-1549364.patch"
 
 projects[field_collection_views][version] = "1.x-dev"
 projects[field_collection_views][subdir] = contrib
@@ -327,7 +327,7 @@ projects[quicktabs][version] = "3.6"
 projects[quicktabs][subdir] = contrib
 ; Applied to 3.6 - projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs-collapse_on_load_option-1023378-13.patch"
 ; Remove Gary's patch projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs_dont_hide_if_no_content_7.x-3.5-766924-52.patch"
-projects[quicktabs][patch][] = "https://drupal.org/files/quicktabs.user-interface.2108935-3.patch"
+projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs.user-interface.2108935-3.patch"
 
 projects[radioactivity][version] = "2.6"
 projects[radioactivity][subdir] = contrib
@@ -362,7 +362,7 @@ projects[security_review][subdir] = contrib
 
 projects[select_or_other][version] = "3.x-dev"
 projects[select_or_other][subdir] = contrib
-projects[select_or_other][patch][] = 'https://drupal.org/files/select_or_other-integrate_term_reference-1716764-27.patch' 
+projects[select_or_other][patch][] = 'http://drupal.org/files/select_or_other-integrate_term_reference-1716764-27.patch' 
 
 projects[smartcrop][version] = "1.0-beta2"
 projects[smartcrop][subdir] = contrib
@@ -480,7 +480,7 @@ projects[wysiwyg][subdir] = contrib
 ; https://drupal.org/node/1963766
 ; http://stackoverflow.com/questions/2695731/how-to-make-tinymce-paste-in-plain-text-by-default
 ; Cannot apply patch
-;projects[wysiwyg][patch][] = "https://drupal.org/files/wysiwyg-1963766-10.patch"
+;projects[wysiwyg][patch][] = "http://drupal.org/files/wysiwyg-1963766-10.patch"
 
 
 
