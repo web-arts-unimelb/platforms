@@ -35,9 +35,17 @@ projects[auto_entitylabel][subdir] = contrib
 projects[autocomplete_widgets][version] = "1.x-dev"
 projects[autocomplete_widgets][subdir] = contrib
 
-
 projects[better_formats][version] = "1.0-beta1"
 projects[better_formats][subdir] = contrib
+
+projects[better_exposed_filters][version] = "3.0-beta4"
+projects[better_exposed_filters][subdir] = contrib
+
+projects[beautytips][version] = "2.x-dev"
+projects[beautytips][subdir] = contrib
+
+projects[chain_menu_access][version] = "2.x-dev"
+projects[chain_menu_access][subdir] = contrib
 
 projects[block_class][version] = "2.1"
 projects[block_class][subdir] = contrib
@@ -158,11 +166,14 @@ projects[fieldset_helper][subdir] = contrib
 projects[field_validation][version] = "2.3"
 projects[field_validation][subdir] = contrib
 
-projects[filefield_sources][version] = "1.8"
+projects[filefield_sources][version] = "1.9"
 projects[filefield_sources][subdir] = contrib
 
 projects[filefield_paths][version] = "1.0-beta4"
 projects[filefield_paths][subdir] = contrib
+
+projects[fontyourface][version] = "2.8"
+projects[fontyourface][subdir] = contrib
 
 projects[form_builder][version] = "1.4"
 projects[form_builder][subdir] = contrib
