@@ -24,6 +24,7 @@ projects[advanced_help][subdir] = contrib
 projects[auto_nodetitle][version] = "1.0"
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][patch][] = "http://drupal.org/files/auto_nodetitle-dont_double_escape_titles-565922-26.patch"
+projects[auto_nodetitle][patch][] = "http://drupal.org/files/select_or_other-integrate_term_reference-1716764-32.patch"
 
 ; auto_nodetitle replacement
 projects[auto_entitylabel][version] = "1.x-dev"
@@ -420,6 +421,9 @@ projects[userprotect][subdir] = contrib
 
 projects[uuid][version] = "1.0-alpha4"
 projects[uuid][subdir] = contrib
+
+projects[usersearchtoadmin][version] = "1.1"
+projects[usersearchtoadmin][subdir] = contrib
 
 projects[variable][version] = "2.2"
 projects[variable][subdir] = contrib
