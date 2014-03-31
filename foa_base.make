@@ -421,6 +421,9 @@ projects[userprotect][subdir] = contrib
 projects[uuid][version] = "1.0-alpha4"
 projects[uuid][subdir] = contrib
 
+projects[usersearchtoadmin][version] = "1.1"
+projects[usersearchtoadmin][subdir] = contrib
+
 projects[variable][version] = "2.2"
 projects[variable][subdir] = contrib
 
