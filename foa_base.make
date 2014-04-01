@@ -524,6 +524,11 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
+libraries[fpdi][download][type] = "get"
+libraries[fpdi][download][url] = "http://www.setasign.com/supra/kon2_dl/76967/FPDI-1.5.1.zip"
+libraries[fpdi][directory_name] = "fpdi"
+libraries[fpdi][destination] = "libraries"
+
 libraries[json2][download][type] = "git"
 libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js.git"
 libraries[json2][download][branch] = "master"
@@ -541,6 +546,11 @@ libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce
 libraries[tinymce][directory_name] = "tinymce"
 libraries[tinymce][destination] = "libraries"
 
+libraries[tcpdf][download][type] = "get"
+libraries[tcpdf][download][url] = "http://sourceforge.net/projects/tcpdf/files/tcpdf_6_0_062.zip"
+libraries[tcpdf][directory_name] = "tcpdf"
+libraries[tcpdf][destination] = "libraries"
+
 libraries[superfish][download][type] = "git"
 libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal.git"
 libraries[superfish][download][branch] = "master"
@@ -552,6 +562,8 @@ libraries[timepicker][download][url] = "https://github.com/wvega/timepicker.git"
 libraries[timepicker][download][branch] = "master"
 libraries[timepicker][directory_name] = "wvega-timepicker"
 libraries[timepicker][destination] = "libraries"
+
+
 
 ;
 ; Themes to go into sites/all
