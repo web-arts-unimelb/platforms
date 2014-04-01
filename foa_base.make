@@ -24,7 +24,6 @@ projects[advanced_help][subdir] = contrib
 projects[auto_nodetitle][version] = "1.0"
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][patch][] = "http://drupal.org/files/auto_nodetitle-dont_double_escape_titles-565922-26.patch"
-projects[auto_nodetitle][patch][] = "http://drupal.org/files/select_or_other-integrate_term_reference-1716764-32.patch"
 
 ; auto_nodetitle replacement
 projects[auto_entitylabel][version] = "1.x-dev"
@@ -147,7 +146,7 @@ projects[feeds_xpathparser][subdir] = contrib
 projects[field_collection][version] = "1.x-dev"
 projects[field_collection][subdir] = contrib
 ; See https://drupal.org/node/1549364#comment-6212222
-projects[field_collection][patch][] = "http://drupal.org/files/field_collection-fields-not-saving-1549364.patch"
+;projects[field_collection][patch][] = "http://drupal.org/files/field_collection-fields-not-saving-1549364.patch"
 
 projects[field_collection_views][version] = "1.x-dev"
 projects[field_collection_views][subdir] = contrib
