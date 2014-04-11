@@ -86,7 +86,7 @@ projects[content_access_admin][subdir] = contrib
 projects[css_splitter][version] = "1.x-dev"
 projects[css_splitter][subdir] = contrib
 
-projects[ctools][version] = "1.3"
+projects[ctools][version] = "1.4"
 projects[ctools][subdir] = contrib
 
 projects[custom_formatters][version] = "2.2"
@@ -318,7 +318,7 @@ projects[nodequeue][subdir] = contrib
 projects[options_element][version] = "1.9"
 projects[options_element][subdir] = contrib
 
-projects[panels][version] = "3.3"
+projects[panels][version] = "3.x-dev"
 projects[panels][subdir] = contrib
 
 projects[pathauto][version] = "1.2"
