@@ -484,6 +484,7 @@ projects[workbench_access][subdir] = contrib
 
 projects[admin_menu_source][version] = "1.x-dev"
 projects[admin_menu_source][subdir] = contrib
+projects[admin_menu_source][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/admin_menu_source/admin_menu_source_anonymous_user_menu.txt"
 
 projects[flood_unblock][version] = "1.0"
 projects[flood_unblock][subdir] = contrib
