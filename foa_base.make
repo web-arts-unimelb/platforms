@@ -336,9 +336,9 @@ projects[prepopulate][subdir] = contrib
 
 projects[quicktabs][version] = "3.6"
 projects[quicktabs][subdir] = contrib
-; Applied to 3.6 - projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs-collapse_on_load_option-1023378-13.patch"
-; Remove Gary's patch projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs_dont_hide_if_no_content_7.x-3.5-766924-52.patch"
 projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs.user-interface.2108935-3.patch"
+projects[quicktabs][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/quicktabs/quicktabs_dont_hide_if_no_content_7.x-3.x-dev-766924.patch"
+
 
 projects[radioactivity][version] = "2.6"
 projects[radioactivity][subdir] = contrib
@@ -484,7 +484,7 @@ projects[workbench_access][subdir] = contrib
 
 projects[admin_menu_source][version] = "1.x-dev"
 projects[admin_menu_source][subdir] = contrib
-projects[admin_menu_source][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/admin_menu_source/admin_menu_source_anonymous_user_menu.txt"
+projects[admin_menu_source][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/admin_menu_source/anonymous_user_menu_7.x-1.x-dev-2202757.patch"
 
 projects[flood_unblock][version] = "1.0"
 projects[flood_unblock][subdir] = contrib
