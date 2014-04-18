@@ -427,8 +427,9 @@ projects[usersearchtoadmin][subdir] = contrib
 projects[variable][version] = "2.2"
 projects[variable][subdir] = contrib
 
-projects[views][version] = "3.7"
+projects[views][version] = "3.x-dev"
 projects[views][subdir] = contrib
+projects[views][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/views/only_var_can_be_passed_as_ref_7.x-3.x-dev.patch"
 
 projects[views_bulk_operations][version] = "3.1"
 projects[views_bulk_operations][subdir] = contrib
