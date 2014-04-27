@@ -454,6 +454,9 @@ projects[views_distinct][version] = "1.0-rc1"
 projects[views_distinct][subdir] = contrib
 projects[views_distinct][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/views_distinct/no_filter_xss_for_aggregation_separator-7.x-1.0-rc.patch"
 
+projects[views_sort_null_field][version] = "1.0"
+projects[views_sort_null_field][subdir] = contrib
+
 projects[webform][version] = "4.0-beta1"
 projects[webform][subdir] = contrib
 
