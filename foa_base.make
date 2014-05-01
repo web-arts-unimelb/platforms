@@ -94,6 +94,9 @@ projects[custom_formatters][subdir] = contrib
 ; @see http://drupal.org/node/1939118
 projects[custom_formatters][patch][] = "http://drupal.org/files/no_makefile.patch"
 
+projects[customerror][version] = "1.x-dev"
+projects[customerror][subdir] = contrib
+
 projects[date][version] = "2.6"
 projects[date][subdir] = contrib
 
@@ -394,7 +397,7 @@ projects[taxonomy_access][subdir] = contrib
 projects[taxonomy_csv][version] = "5.10"
 projects[taxonomy_csv][subdir] = contrib
 
-projects[content_taxonomy][version] = "1.0-beta2"
+projects[content_taxonomy][version] = "1.x-dev"
 projects[content_taxonomy][subdir] = contrib
 
 projects[themekey][version] = "2.5"
@@ -444,7 +447,7 @@ projects[views_litepager][subdir] = contrib
 projects[views_slideshow][version] = "3.x-dev"
 projects[views_slideshow][subdir] = contrib
 
-projects[views_data_export][version] = "3.x-dev"
+projects[views_data_export][version] = "3.0-beta7"
 projects[views_data_export][subdir] = contrib
 
 projects[views_pdf][version] = "1.1"
