@@ -460,6 +460,10 @@ projects[views_distinct][patch][] = "http://web01.arts.unimelb.edu.au/patch/drup
 projects[views_sort_null_field][version] = "1.0"
 projects[views_sort_null_field][subdir] = contrib
 
+projects[views_php][version] = "1.x-dev"
+projects[views_php][subdir] = contrib
+projects[views_php][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/views_php/no_pager_7.x-1.x-dev-2123315.patch"
+
 projects[webform][version] = "4.0-beta1"
 projects[webform][subdir] = contrib
 
