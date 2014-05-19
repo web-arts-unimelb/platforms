@@ -241,6 +241,7 @@ projects[ldap][subdir] = contrib
 ; @see http://drupal.org/node/1775658
 projects[ldap][patch][] = http://drupal.org/files/ldap_server_init-1775658-1.patch
 projects[ldap][patch][] = http://drupal.org/files/ldap-7.x-1.0-beta12-early-exist.txt
+projects[ldap][patch][] = https://drupal.org/files/ldap-1.x-beta12-empty_mail_behavior.patch
 
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = contrib
