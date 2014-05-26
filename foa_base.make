@@ -341,7 +341,7 @@ projects[prepopulate][subdir] = contrib
 projects[quicktabs][version] = "3.6"
 projects[quicktabs][subdir] = contrib
 projects[quicktabs][patch][] = "http://drupal.org/files/quicktabs.user-interface.2108935-3.patch"
-projects[quicktabs][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/quicktabs/quicktabs_dont_hide_if_no_content_7.x-3.x-dev-766924.patch"
+projects[quicktabs][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/drupal_7/quicktabs/quicktabs_dont_hide_if_no_content_7.x-3.x-dev-766924.patch"
 
 
 projects[radioactivity][version] = "2.6"
@@ -433,7 +433,7 @@ projects[variable][subdir] = contrib
 
 projects[views][version] = "3.x-dev"
 projects[views][subdir] = contrib
-projects[views][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/views/only_var_can_be_passed_as_ref_7.x-3.x-dev.patch"
+projects[views][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/drupal_7/views/only_var_can_be_passed_as_ref_7.x-3.x-dev.patch"
 
 projects[views_bulk_operations][version] = "3.1"
 projects[views_bulk_operations][subdir] = contrib
@@ -456,14 +456,14 @@ projects[views_pdf][subdir] = contrib
 
 projects[views_distinct][version] = "1.0-rc1"
 projects[views_distinct][subdir] = contrib
-projects[views_distinct][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/views_distinct/no_filter_xss_for_aggregation_separator-7.x-1.0-rc.patch"
+projects[views_distinct][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/drupal_7/views_distinct/no_filter_xss_for_aggregation_separator-7.x-1.0-rc.patch"
 
 projects[views_sort_null_field][version] = "1.0"
 projects[views_sort_null_field][subdir] = contrib
 
 projects[views_php][version] = "1.x-dev"
 projects[views_php][subdir] = contrib
-projects[views_php][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/views_php/no_pager_7.x-1.x-dev-2123315.patch"
+projects[views_php][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/drupal_7/views_php/no_pager_7.x-1.x-dev-2123315.patch"
 
 projects[webform][version] = "4.0-beta1"
 projects[webform][subdir] = contrib
@@ -500,7 +500,7 @@ projects[workbench_access][subdir] = contrib
 
 projects[admin_menu_source][version] = "1.x-dev"
 projects[admin_menu_source][subdir] = contrib
-projects[admin_menu_source][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/admin_menu_source/anonymous_user_menu_7.x-1.x-dev-2202757.patch"
+projects[admin_menu_source][patch][] = "http://web01.arts.unimelb.edu.au/patch/drupal/drupal_7/admin_menu_source/anonymous_user_menu_7.x-1.x-dev-2202757.patch"
 
 projects[flood_unblock][version] = "1.0"
 projects[flood_unblock][subdir] = contrib
